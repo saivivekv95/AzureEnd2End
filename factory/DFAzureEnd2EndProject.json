@@ -1,0 +1,9 @@
+{
+	"name": "DFAzureEnd2EndProject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e53d67f-f1fc-4502-969b-faa758e6284f",
+		"tenantId": "0cc67288-c36f-4070-addd-db618f571060"
+	}
+}
