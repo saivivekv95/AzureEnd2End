@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DFAzureEnd2EndProject"
+		},
+		"AzureSQL_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"AzureSQL_properties_typeProperties_server": {
+			"value": "azureend2endserver.database.windows.net"
+		},
+		"AzureSQL_properties_typeProperties_database": {
+			"value": "azureend2enddb"
+		},
+		"AzureSQL_properties_typeProperties_userName": {
+			"value": "adminviv"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://storageend2engproject.dfs.core.windows.net/"
+		}
+	}
+}
